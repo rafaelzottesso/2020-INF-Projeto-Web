@@ -1,0 +1,9 @@
+git add *
+
+git config user.email "rafael.zottesso@ifpr.edu.br"
+
+git commit -m "Descrição do que vc fez"
+
+git push
+
+(digitar usuário e senha pra enviar)

@@ -1,3 +1,6 @@
+Vai na sua pasta/repositório no PC
+Botão direito -> Git BASH here
+
 git add *
 
 git config user.email "rafael.zottesso@ifpr.edu.br"

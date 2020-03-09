@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /* Largura de um elemento */
+  width: 800px;
+  /* Centralizando divs/elementos */
+  margin: 0px auto;
+  padding: 50px;
+}
+
+/* a div conteúdo dentro da div site */
+.site .conteudo{
+  /* background-color: yellow; */
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+
+  border-top: solid 1px #ADADAD;
+  border-bottom: solid 1px #ADADAD;
+
+  /* border-width: 5px;
+  border-color: #ADADAD;
+  border-style: dashed; */
+}
+
+.site .topo, .site .rodape{
+  font-family: 'Sedgwick Ave', cursive;
+  text-align: center;
+}
+
+.site .topo h2{
+  font-family: 'Sedgwick Ave', cursive;
+}

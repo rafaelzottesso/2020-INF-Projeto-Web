@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /* Largura de um elemento */
+  width: 800px;
+  /* Centralizando divs/elementos */
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+/* a div conteúdo dentro da div site */
+.site .conteudo{
+  /* background-color: yellow; */
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 50px;
+
+  /* border-top: solid 1px #ADADAD; */
+  border-bottom: solid 1px #ADADAD;
+
+  /* border-width: 5px;
+  border-color: #ADADAD;
+  border-style: dashed; */
+}
+
+.conteudo h3{
+  border-bottom: solid 1px #ADADAD;
+  margin: 15px 0px;
+  padding: 5px;
+}
+
+.site .topo, .site .rodape{
+  font-family: 'Sedgwick Ave', cursive;
+  text-align: center;
+}
+
+.site .topo h2{
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+.botao{
+  font-size: 18px;
+  /* Remove o "underline" de um link */
+  text-decoration: none;
+  padding: 10px 20px;
+  /* Exibe o link como um bloco em linha */
+  display: inline-block;
+  /* Arredonda a borda dos elementos */
+  border-radius: 5px;
+  color: #222222;
+}
+
+.botao-azul {
+  background-color: #66b3ff;
+  border: solid 1px #0059b3;
+}
+
+/* A propriedade seletor:hover é aplicada quando passamos o mouse
+em cima do elemento */
+.botao-azul:hover{
+  background-color: #4d94ff;
+}
+
+.botao-verde {
+  background-color: #66ff99;
+  border: solid 1px #2d862d;
+}
+
+.botao-verde:hover {
+  background-color: #33ff77;
+}
+
+.botao-vermelho {
+  background-color: #ff6666;
+  border: solid 1px #800000;
+}
+
+.botao-vermelho:hover {
+  background-color: #ff3333;
+}
+
+.menu{
+  background-color: #ADADAD;
+  margin-top: 20px;
+}
+
+.menu ul{
+  /* Remove as bolinhas da lista */
+  list-style-type: none;
+}
+
+.menu ul li{
+  /* Mudando os itens da lista para serem exibidos em linha como blocos */
+  display: inline-block;
+}
+
+.menu a{
+  /* Remove o "underline" */
+  text-decoration: none;
+  /* Transoforma os links em blocos */
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000000;
+}
+
+.menu a:hover{
+  background-color: #BABABA;
+}
